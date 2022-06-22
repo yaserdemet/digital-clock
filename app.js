@@ -1,6 +1,6 @@
 const container = document.querySelector(".container");
 const text = document.querySelector(".text");
-const btn = document.querySelector("button");
+const btn1 = document.querySelector(".btn1");
 const btn2 = document.querySelector(".btn2");
 let flag = true;
 
@@ -20,7 +20,7 @@ function clockJs() {
   text.innerText = all;
 }}
 setInterval(clockJs, 1000);
-btn.addEventListener("click", () => {
+btn1.addEventListener("click", () => {
     flag = false;
      clockJs();
  });

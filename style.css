@@ -16,15 +16,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: black;
 }
 
-#container {
+.container {
     height: 20vh;
     width: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 p {
@@ -33,4 +35,22 @@ p {
     font-family: digitalFont;
     letter-spacing: 8px;
     color: rgb(37, 255, 0);
+}
+.row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    color:rgb(242, 247, 241) ;
+    background-color: black !important;
+}
+.row1 button {
+    color: aliceblue;
+    border-color: aliceblue;
+    width: 10rem;
+}
+.row1 button:hover {
+    color: rgb(37, 255, 0);
+    background-color: black;
 }
